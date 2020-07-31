@@ -16,6 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git clone https://github.com/lisaac/luci-app-dockerman package/lean/luci-app-dockerman
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 rm -rf package/lean/luci-theme-argon
