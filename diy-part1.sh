@@ -21,3 +21,5 @@ git clone https://github.com/lisaac/luci-app-dockerman package/lean/luci-app-doc
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/esirplayground/luci-app-LingTiGameAcc package/lean/luci-app-LingTiGameAcc
+git clone https://github.com/esirplayground/LingTiGameAcc package/lean/LingTiGameAcc
