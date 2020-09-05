@@ -17,7 +17,7 @@ config interface 'lan'
 	option _orig_ifname 'eth0'
 	option _orig_bridge 'true'
 	option ifname 'eth0 eth1'
-	option ipaddr '192.168.0.1'
+	option ipaddr '192.168.0.24'
 
 config interface 'wan'
 	option _orig_ifname 'eth1'
