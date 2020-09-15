@@ -23,4 +23,3 @@ rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/esirplayground/luci-app-LingTiGameAcc package/lean/luci-app-LingTiGameAcc
 git clone https://github.com/esirplayground/LingTiGameAcc package/lean/LingTiGameAcc
-curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
